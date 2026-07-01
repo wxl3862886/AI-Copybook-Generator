@@ -1,0 +1,15 @@
+body {
+  font-family: Arial;
+  text-align: center;
+}
+
+textarea {
+  width: 400px;
+  height: 100px;
+  font-size: 18px;
+}
+
+canvas {
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}

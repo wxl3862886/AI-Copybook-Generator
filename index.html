@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>字帖生成器</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>AI Copybook Generator</h2>
+
+<textarea id="inputText" placeholder="输入要练习的汉字"></textarea>
+
+<br>
+
+<button onclick="generate()">生成字帖</button>
+
+<canvas id="canvas" width="800" height="1100"></canvas>
+
+<script src="generator/grid.js"></script>
+<script src="generator/copybook.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
